@@ -1,8 +1,7 @@
-title, info, author, link, x, y, thumb
-"Critical Habitat: Protecting our Vulnerable Species", "Discovering critical habitats in Kentucky", "PratherIII", "https://pratheriii.github.io/Critical-Habitat/", 37.3, -85, "graphics/Critical-Hab520.jpg
-"Rocky Mountain High - Population Growth in the Mountain States (2000-2017)", "Shows changes in population for counties and cities (at least 30,000 population in 2000) in the Mountain States of the U.S.", "A mighty mapper!", "https://urban58.github.io/rocky_mountain_high/", 40.76, -109.89, "graphics/Rocky-Mounta907.jpg
-"How Close are You to a CoCo Ichibanya Curry House?", "When you're out and about in Okinawa, and feeling kind of hungry, where do you go? CoCos!", "", "https://elanmarae.github.io/okinawa-curry", 26.252384, 127.738127, "graphics/How-Close-ar295.jpg
-"Mapping the Extant Rosenwald Schools", "View the existing knowledge of Rosenwald schools in the US South and learn about their construction costs", "Ian Spangler", "https://itspangler.github.io/Rosenwald-Schools/", 33, -93.5, "graphics/Mapping-the-29.jpg
-"Airports of the US", "All aircraft landing facilities in the United States.", "A mighty mapper!", "https://tscu223.github.io/Airports-in-the-US", 36, -94, "graphics/Airports-of-585.jpg
-"The Amazing Hike", "A story map of a hike in the Smokey Mountains", "Osama Abdl-Haleem", "https://newmapsplus.as.uky.edu", 35.6313, -83.4233, "graphics/nmp-project.jpg
-"Rapids of the Nolichucky River", "Displays rapids, names, and classifications", "Brian Shelton", "https://lbrianshelton.github.io/nolichucky_rapids/", 36.086222, -82.393149, "graphics/Rapids-of-th836.jpg
+{
+"type": "FeatureCollection",
+"name": "projects",
+"features": [
+
+]
+}
