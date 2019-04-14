@@ -13,6 +13,7 @@ Many projects have been created by New Maps Plus students. The objective here is
 "coordinates": [lat, lon],
 "author": "Author"
 "link": "url"
+}
 ```
 
 They then need to submit their GitHub Pages URL, which goes into the [list.json](list.json).
