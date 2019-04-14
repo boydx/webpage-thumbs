@@ -18,7 +18,7 @@ Many projects have been created by New Maps Plus students. The objective here is
 
 They then need to submit their GitHub Pages URL, which goes into the [list.json](list.json).
 
-[buildPuppeteer.js](buildPuppeteer.js) is a node script the uses Puppeteer to creates a web page screenshot. It also builds a CSV for conversion to GeoJSON.
+[buildPuppeteer.js](buildPuppeteer.js) is a node script the uses Puppeteer to create a web page screenshot. It also builds a CSV for conversion to GeoJSON.
 
 ## Example
 
