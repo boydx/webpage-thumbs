@@ -1,6 +1,6 @@
 <OGRVRTDataSource>
-    <OGRVRTLayer name="proejcts">
-        <SrcDataSource>proejcts.csv</SrcDataSource>
+    <OGRVRTLayer name="projects">
+        <SrcDataSource>projects.csv</SrcDataSource>
         <GeometryType>wkbPoint</GeometryType>
         <LayerSRS>WGS84</LayerSRS>
         <GeometryField encoding="PointFromColumns" x="x" y="y"/>

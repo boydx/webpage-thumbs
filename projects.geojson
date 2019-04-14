@@ -1,4 +1,14 @@
 {
-  "type": "FeatureCollection",
-  "features": []
+"type": "FeatureCollection",
+"name": "projects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Title": "  The Amazing Hike", "Info": " A story map of a hike in the Smokey Mountains", "Author": " Osama Abdl-Haleem", "Thumb": " graphics\/nmp-project.jpg" }, "geometry": { "type": "Point", "coordinates": [ 35.6313, -83.4233 ] } },
+{ "type": "Feature", "properties": { "Title": "  Mapping the Extant Rosenwald Schools", "Info": " View the existing knowledge of Rosenwald schools in the US South and learn about their construction costs", "Author": " Ian Spangler", "Thumb": " graphics\/Mapping-the-496.jpg" }, "geometry": { "type": "Point", "coordinates": [ 33.0, -93.5 ] } },
+{ "type": "Feature", "properties": { "Title": "  How Close are You to a CoCo Ichibanya Curry House?", "Info": " When you're out and about in Okinawa, and feeling kind of hungry, where do you go? CoCos!", "Author": " ", "Thumb": " graphics\/How-Close-ar855.jpg" }, "geometry": { "type": "Point", "coordinates": [ 26.252384, 127.738127 ] } },
+{ "type": "Feature", "properties": { "Title": "  Critical Habitat: Protecting our Vulnerable Species", "Info": " Discovering critical habitats in Kentucky", "Author": " PratherIII", "Thumb": " graphics\/Critical-Hab64.jpg" }, "geometry": { "type": "Point", "coordinates": [ 37.3, -85.0 ] } },
+{ "type": "Feature", "properties": { "Title": "  Rapids of the Nolichucky River", "Info": " Displays rapids, names, and classifications", "Author": " Brian Shelton", "Thumb": " graphics\/Rapids-of-th996.jpg" }, "geometry": { "type": "Point", "coordinates": [ 36.086222, -82.393149 ] } },
+{ "type": "Feature", "properties": { "Title": "  Rocky Mountain High - Population Growth in the Mountain States (2000-2017)", "Info": " Shows changes in population for counties and cities (at least 30,000 population in 2000) in the Mountain States of the U.S.", "Author": " A mighty mapper!", "Thumb": " graphics\/Rocky-Mounta130.jpg" }, "geometry": { "type": "Point", "coordinates": [ 40.76, -109.89 ] } },
+{ "type": "Feature", "properties": { "Title": "  Airports of the US", "Info": " All aircraft landing facilities in the United States.", "Author": " A mighty mapper!", "Thumb": " graphics\/Airports-of-560.jpg" }, "geometry": { "type": "Point", "coordinates": [ 36.0, -94.0 ] } }
+]
 }

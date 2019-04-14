@@ -2,6 +2,8 @@
 const csv2geojson = require('csv2geojson');
 const fs = require('fs');
 
+// or more dependably:
+// ogr2ogr -f GeoJSON projects.geojson projects.vrt
 
 
 // Load list of projects

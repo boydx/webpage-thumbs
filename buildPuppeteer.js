@@ -2,7 +2,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const axios = require('axios');
-var csv2geojson = require('csv2geojson');
+// var csv2geojson = require('csv2geojson');
 
 // Load list of projects
 const projects = JSON.parse(fs.readFileSync('list.json', 'utf8'));
@@ -43,18 +43,18 @@ for (p in projects.publish) {
 
 // Export to geojson
 // Load list of projects
-const projectsCSV = fs.readFileSync('projects.csv', 'utf8');
-const geojson = csv2geojson.csv2geojson(projectsCSV, {
-  latfield: 'y',
-  lonfield: 'x',
-  delimiter: ','
-}, function(err, data) {
-});
+// const projectsCSV = fs.readFileSync('projects.csv', 'utf8');
+// const geojson = csv2geojson.csv2geojson(projectsCSV, {
+//   latfield: 'y',
+//   lonfield: 'x',
+//   delimiter: ','
+// }, function(err, data) {
+// });
 
-fs.writeFile('projects.geojson', geojson, (err) => {
-  // throws an error, you could also catch it here
-  if (err) throw err;
-});
+// fs.writeFile('projects.geojson', geojson, (err) => {
+//   // throws an error, you could also catch it here
+//   if (err) throw err;
+// });
 
 // Functions
 
@@ -68,7 +68,7 @@ function buildString (t, i, a, l, x, y, f) {
     a = "A mighty mapper!"
   }
   let content = `
-  "${t}", "${i}", "${a}", "${l}", ${x}, ${y}, "${f}`
+  "${t}", "${i}", "${a}", "${l}", ${x}, ${y}, "${f}"`
   fs.appendFile('projects.csv',
         content,
         (err) => {
