@@ -26,27 +26,6 @@ for (proj in projs.features) {
             });
         }
         });
-    // console.log(typeof(x))
-    // console.log(x.slice(7,15))
-    // console.log(String(x).slice(7,15))
-    
 
 };
 
-
-
-
-// var options = {
-//     phantomPath: "/Volumes/B/_repos/_boydx/phantomjs/bin/phantomjs",
-//     windowSize: {width: 400,
-//     height: 600}
-// };
-
-// webshot('outrageGIS.com', image , options, (err) => {
-//     // screenshot now saved to google.png
-// });
-
-// console.log(projs)
-
-// sharp(image)
-//   .toFile('graphics/output.jpg', (err, info) => { });

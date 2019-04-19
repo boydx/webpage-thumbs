@@ -4,6 +4,7 @@ const fs = require('fs');
 
 // or more dependably:
 // ogr2ogr -f GeoJSON projects.geojson projects.vrt
+// csv2geojson.sh
 
 
 // Load list of projects

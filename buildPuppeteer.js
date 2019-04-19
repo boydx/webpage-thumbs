@@ -5,7 +5,7 @@ const axios = require('axios');
 // var csv2geojson = require('csv2geojson');
 
 // Load list of projects
-const projects = JSON.parse(fs.readFileSync('list.json', 'utf8'));
+const projects = JSON.parse(fs.readFileSync('input/list.json', 'utf8'));
 
 // Set local variables
 const fields = "title, info, author, link, x, y, thumb"
@@ -13,7 +13,7 @@ let imageName = "",
     fileName = ""
 
 // Create CSVfile with field names
-fs.writeFile('projects.csv', fields, (err) => {
+fs.writeFile('output/projects.csv', fields, (err) => {
   // throws an error, you could also catch it here
   if (err) throw err;
 });
@@ -69,7 +69,7 @@ function buildString (t, i, a, l, x, y, f) {
   }
   let content = `
   "${t}", "${i}", "${a}", "${l}", ${x}, ${y}, "${f}"`
-  fs.appendFile('projects.csv',
+  fs.appendFile('output/projects.csv',
         content,
         (err) => {
           if (err) throw err;
@@ -84,7 +84,7 @@ function makeThumbs(url, name) {
       // How to sanitize link?
       if (url.includes("https://") && url.includes(".github.io/")) {
         let screenshotOptions = {
-          path: name,
+          path: `output/${name}`,
           type: 'jpeg'
         }
         const browser = await puppeteer.launch();
