@@ -1,6 +1,9 @@
 # Web mapping projects with webpage thumbnails
 
-A project to cycle through web mapping projects, generate an image of the project web page, and create a GeoJSON.
+A project to cycle through web mapping projects, generate an image of the project web page, and create a GeoJSON with attributes for informative popups.
+
+![Map with example popup](images/example_map_popup.jpg)    
+Example of a project popup
 
 ## Process
 
