@@ -26,3 +26,7 @@ Many projects have been created by New Maps Plus mappers. Instead of keeping a c
 ## Example
 
 New Maps Plus projects: https://newmapsplus.github.io/projects. This is currently a random assortment of final projects from MAP 671 and 672. Some are from the CartoDB days.
+
+## Contributing
+
+If you have any ideas how to improve this project, please feel free to contribute.
