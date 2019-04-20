@@ -1,6 +1,6 @@
-const webshot = require('webshot')
+// const webshot = require('webshot') // need to install
 const fs = require('fs');
-const phantom = require('phantom');
+// const phantom = require('phantom'); // need to install
 
 const projs = JSON.parse(fs.readFileSync('projects.json', 'utf8'));
 let i = 0

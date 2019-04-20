@@ -1,4 +1,4 @@
-const webshot = require('webshot')
+// const webshot = require('webshot') // need to install
 // var sharp = require('sharp')
 const fs = require('fs');
 const axios = require('axios');
