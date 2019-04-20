@@ -1,4 +1,4 @@
-title, info, author, link, x, y, thumb
+title, info, author, link, y, x, thumb
   "Airports of the US", "All aircraft landing facilities in the United States.", "A mighty mapper!", "https://tscu223.github.io/Airports-in-the-US", 36, -94, "graphics/Airports-of-852.jpg"
   "Rapids of the Nolichucky River", "Displays rapids, names, and classifications", "Brian Shelton", "https://lbrianshelton.github.io/nolichucky_rapids/", 36.086222, -82.393149, "graphics/Rapids-of-th31.jpg"
   "Critical Habitat: Protecting our Vulnerable Species", "Discovering critical habitats in Kentucky", "PratherIII", "https://pratheriii.github.io/Critical-Habitat/", 37.3, -85, "graphics/Critical-Hab763.jpg"

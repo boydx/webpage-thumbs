@@ -8,7 +8,7 @@ const axios = require('axios');
 const projects = JSON.parse(fs.readFileSync('input/list.json', 'utf8'));
 
 // Set local variables
-const fields = "title, info, author, link, x, y, thumb"
+const fields = "title, info, author, link, y, x, thumb"
 let imageName = "",
     fileName = ""
 
