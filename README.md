@@ -1,10 +1,10 @@
 # Web mapping projects with webpage thumbnails
 
-A project to cycle through web mapping projects, generate an image of the project web page, and create a GeoJSON with popups for mapping.
+A project to cycle through web mapping projects, generate an image of the project web page, and create a GeoJSON.
 
 ## Process
 
-Many projects have been created by New Maps Plus mappers. Instead of keeping a centralized list of published projects, this repo allows authors to place a pin on a map and maintain their popup content. When an author finishes a project, and wants to contribute to the map, a few steps need to be completed.
+Many projects have been created by New Maps Plus mappers. Instead of keeping a centralized list of published projects, this repo allows authors to place a pin on a map and maintain their content over time. When an author finishes a project, and wants to contribute to the map, a few steps need to be completed.
 
 1. Create a `publish.json` with the following information: 
 
