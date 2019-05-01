@@ -18,6 +18,12 @@ fs.writeFile('output/projects.csv', fields, (err) => {
   if (err) throw err;
 });
 
+// Create CSVfile for error dump
+fs.writeFile('output/error.csv', "url", (err) => {
+  // throws an error, you could also catch it here
+  if (err) throw err;
+});
+
 // Loop through projects and build record
 for (p in projects.publish) {
   axios.get(projects.publish[p])
@@ -37,7 +43,13 @@ for (p in projects.publish) {
     })
     .catch((error) => {
       // handle error
-      console.log(`${error} is likely a 404....`);
+      console.log(`${error}: ${error.response.config.url}`);
+       fs.appendFile('output/error.csv',
+        `\n${error.response.config.url}`,
+        (err) => {
+          if (err) throw err;
+          // console.log(`Added: ${content}`);
+        });
     })
 }
 
