@@ -101,12 +101,20 @@ function makeThumbs(url, name) {
         }
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
-        await page.goto(url);
+        await page.goto(url, {
+          // networkIdleTimeout: 5000,
+          //       waitUntil: 'networkidle',
+          //       timeout: 0
+        });
         page.setViewport({
           height: 1000,
           width: 1200
         })
         // await page.waitFor(10000)
+        // await page.waitForNavigation({
+        //   "timeout": 20000
+        // });
+        // page.once('load', () => console.log(`output/${name}`));
         await page.screenshot(screenshotOptions);
         await browser.close();
       }

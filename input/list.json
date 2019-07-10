@@ -1,12 +1,8 @@
-{ "publish":
-    [
-        "https://tscu223.github.io/Airports-in-the-US/publish.json",
-        "https://lbrianshelton.github.io/nolichucky_rapids/publish.json",
-        "https://itspangler.github.io/Rosenwald-Schools/publish.json",
-        "https://urban58.github.io/rocky_mountain_high/publish.json",
-        "https://elanmarae.github.io/okinawa-curry/publish.json",
-        "https://oabdlhaleem.github.io/amazing-hike/publish.json",
-        "https://lfunke.github.io/672FinalProjectFunke/publish.json",
-        "https://pratheriii.github.io/Critical-Habitat/publish.json"
+{
+    "publish": [
+        "https://ljmoser83.github.io/lex-foodscape/publish.json",
+        "https://mahorn.github.io/conservation/publish.json",
+        "https://mikus31.github.io/the-spoken-world/publish.json",
+        "https://raw.githubusercontent.com/bazini627/wnvSlevMap/master/publish.json"
     ]
 }

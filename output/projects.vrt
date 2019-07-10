@@ -4,9 +4,10 @@
         <GeometryType>wkbPoint</GeometryType>
         <LayerSRS>WGS84</LayerSRS>
         <GeometryField encoding="PointFromColumns" x="x" y="y"/>
-        <Field name="Title" src="title" type="String"/>
-        <Field name="Info" src="info" type="String"/>
-       <Field name="Author" src="author" type="String"/>
-       <Field name="Thumb" src="thumb" type="String"/>
+        <Field name="title" src="title" type="String"/>
+        <Field name="info" src="info" type="String"/>
+       <Field name="author" src="author" type="String"/>
+       <Field name="thumb" src="thumb" type="String"/>
+       <Field name="link" src="link" type="String"/>
     </OGRVRTLayer>
 </OGRVRTDataSource>

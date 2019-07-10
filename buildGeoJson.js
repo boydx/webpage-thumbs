@@ -9,7 +9,7 @@ const fs = require('fs');
 
 // Load list of projects
 const projectsCSV = fs.readFileSync('projects.csv', 'utf8');
-console.log(projectsCSV)
+// console.log(projectsCSV)
 const geojson = csv2geojson.csv2geojson(projectsCSV, {
   latfield: 'y',
   lonfield: 'x',
