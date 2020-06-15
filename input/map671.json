@@ -1,0 +1,9 @@
+{
+    "publish": [
+        "https://trriley.github.io/rural-transportation/publish.json",
+        "https://avyma.github.io/opioid-ky/publish.json",
+        "https://zac-stanley.github.io/california-wildfires/publish.json",
+        "https://alexbuck328.github.io/national-parks/publish.json"
+        
+    ]
+}

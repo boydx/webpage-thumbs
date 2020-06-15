@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "projects",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "title": "Healthcare Facility Services in Bangladesh", "info": " Identifying resources for neural tube defect prevention and treatment in Bangladesh", "author": " A mighty mapper!", "thumb": " graphics\/nmp-project.jpg", "link": " https:\/\/newmapsplus.as.uky.edu" }, "geometry": { "type": "Point", "coordinates": [ 90.0, 23.7 ] } },
+{ "type": "Feature", "properties": { "title": "American Affluency", "info": " A look at income, wealth and poverty in America", "author": " Alexander Buck", "thumb": " graphics\/American-Aff609.jpg", "link": " https:\/\/alexbuck328.github.io\/american-affluency\/" }, "geometry": { "type": "Point", "coordinates": [ -84.511524, 38.021222 ] } },
+{ "type": "Feature", "properties": { "title": "Linguistic Atlas Project", "info": " Responses to 'Parlor' question", "author": " apburkette32", "thumb": " graphics\/Linguistic-A73.jpg", "link": " https:\/\/apburkette32.github.io\/Linguistic-Atlas-parlor-data\/" }, "geometry": { "type": "Point", "coordinates": [ -79.4736992, 38.0215463 ] } },
+{ "type": "Feature", "properties": { "title": "A map of AzTec Consultants Projects", "info": " Selection of projects in Southwest Denver", "author": " Steve Fuller", "thumb": " graphics\/A-map-of-AzT135.jpg", "link": " https:\/\/sfulleruwyo1.github.io\/Aztec\/" }, "geometry": { "type": "Point", "coordinates": [ -104.983291625976562, 39.755768514058119 ] } },
+{ "type": "Feature", "properties": { "title": "Kentucky Health - Cardiac-Related Chronic Conditions by Counties, 2017", "info": " A modest attempt to visualize the cardiac health conditions by KY counties with comparison to state and national level ", "author": " THE + RIGHT + VUE", "thumb": " graphics\/Kentucky-Hea122.jpg", "link": " https:\/\/avyma.github.io\/Kentucky-Health\/" }, "geometry": { "type": "Point", "coordinates": [ -84.5, 38.0 ] } },
+{ "type": "Feature", "properties": { "title": "Bi-Variate Map of Wildfires in California", "info": " This bivariate map represents wildfires in California from 2009-2019. The symbol size represents size in acres >= 100 and the colors represent the five most common cause of fire during this time period. The data came from the U.S. Forest Service; FIRESTAT Fire Occurrence - Yearly Update.", "author": " Zac Stanley", "thumb": " graphics\/Bi-Vi-Map-CA-23244.jpg", "link": " https:\/\/zac-stanley.github.io\/CaliforniaWildfires2009-2019" }, "geometry": { "type": "Point", "coordinates": [ -120.4, 37.6 ] } }
+]
+}

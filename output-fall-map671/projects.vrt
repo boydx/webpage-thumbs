@@ -1,0 +1,13 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="projects">
+        <SrcDataSource>projects.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>WGS84</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="x" y="y"/>
+        <Field name="title" src="title" type="String"/>
+        <Field name="info" src="info" type="String"/>
+       <Field name="author" src="author" type="String"/>
+       <Field name="thumb" src="thumb" type="String"/>
+       <Field name="link" src="link" type="String"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>

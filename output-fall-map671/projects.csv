@@ -1,0 +1,5 @@
+title, info, author, link, y, x, thumb
+  "Impact and Response to the Opioid Crisis Across Kentucky 2018", "Displayed the opioid mortality and substance-use treatment centers across Kentucky counties", "Vu Nguyen", "https://newmapsplus.as.uky.edu", 37.6, -84.8, "graphics/nmp-project.jpg"
+  "Rural Transportation in Central Illinois", "Visualize how rural transportation connects places in Central Illinois.", "@trriley", "http://trriley.github.io/rural-transportation", 44, -88.5, "graphics/Rural-Transp303.jpg"
+  "National Parks and Monuments of the Rocky Mountain West", "Natonal Parks and National Monuments in Rocky Mountain states", "Alex Buck", "https://github.com/AlexBuck328/national-parks", 44.597, -110.548, "graphics/National-Par315.jpg"
+  "Wildfires in California, Greater than 10,000 Acres from 1878-2018", "A dynamic map of wildfires by size that change from graduated symbols to actual polygons as you zoom in", "zac-stanley", "https://github.com/zac-stanley/california-wildfires", -118.776987, 34.078548, "graphics/Wildfires-in917.jpg"

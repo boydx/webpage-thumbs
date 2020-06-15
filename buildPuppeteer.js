@@ -5,7 +5,7 @@ const axios = require('axios');
 // var csv2geojson = require('csv2geojson');
 
 // Load list of projects
-const projects = JSON.parse(fs.readFileSync('input/list.json', 'utf8'));
+const projects = JSON.parse(fs.readFileSync('input/map672-winter-2020.json', 'utf8'));
 
 // Set local variables
 const fields = "title, info, author, link, y, x, thumb"
@@ -29,7 +29,7 @@ for (p in projects.publish) {
   axios.get(projects.publish[p])
     .then((response) => {
       let res = response.data
-      if (res.link != undefined) {
+      if (res.link != undefined || res.link != null) {
         imageName = res.title.slice(0, 12).replace(/ /g, "-")
         let number = Math.floor((Math.random() * 1000) + 1);
         fileName = `graphics/${imageName}${number}.jpg`
@@ -94,7 +94,7 @@ function makeThumbs(url, name) {
   (async () => {
     try {
       // How to sanitize link?
-      if (url.includes("https://") && url.includes(".github.io/")) {
+      if (/*url.includes("https://") &&*/ url.includes(".github.io/")) {
         let screenshotOptions = {
           path: `output/${name}`,
           type: 'jpeg'
@@ -108,9 +108,9 @@ function makeThumbs(url, name) {
         });
         page.setViewport({
           height: 1000,
-          width: 1200
+          width: 1600
         })
-        // await page.waitFor(10000)
+        await page.waitFor(5000)
         // await page.waitForNavigation({
         //   "timeout": 20000
         // });
