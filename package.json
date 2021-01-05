@@ -4,7 +4,7 @@
   "description": "generate web page images",
   "main": "gen.js",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "csv2geojson": "^5.1.1",
     "phantom": "^6.2.0",
     "puppeteer": "^1.14.0",
